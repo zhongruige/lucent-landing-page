@@ -277,52 +277,49 @@
     <main class="content">
         <header class="page-header">
             <h1>Privacy Policy</h1>
-            <p class="updated">Last updated: December 2025</p>
+            <p class="updated">Last updated: October 2026</p>
         </header>
 
         <section class="policy-section">
-            <p>This privacy policy governs your use of the software application Lucent ("Application") for mobile devices. Our privacy policy may change from time to time. If we make any material changes to our policies, we will place a prominent notice on our website or application. If you have any questions or concerns about our privacy policies, feel free to contact us at <a href="mailto:hello@gregbell.dev">hello@gregbell.dev</a>.</p>
+            <h2>Your information</h2>
+            <p>Lucent stores the budgets, categories, transactions, notes, payment methods, recurring rules, savings goals and receipts you choose to enter. Guest mode uses identifiers stored locally and in your private iCloud account. If you sign in with Apple or use email authentication, account information can include your user identifier, name and email address, including an Apple private relay address. Profile names help invited household members recognize each other.</p>
         </section>
 
         <section class="policy-section">
-            <h2>What information does the Application obtain and how is it used?</h2>
-            <p>The Application does not collect personally identifiable information such as your name, email address, or phone number. When you use the app, an anonymous account is created using only a randomly generated UUID (a unique identifier). Your budget data, categories, transactions, and savings goals are stored in the cloud to enable syncing across your devices and household sharing features.</p>
+            <h2>Storage and household sharing</h2>
+            <p>Your private app data can sync between your own devices using Apple&#x27;s iCloud and CloudKit services. Signed-in household data is stored and synchronized through Supabase. Invited household members can access financial records according to the app&#x27;s sharing features. Receipt files are not synchronized to other household members through Supabase in this release.</p>
         </section>
 
         <section class="policy-section">
-            <h2>How do you handle location data?</h2>
-            <p>The Application does not use or collect any data related to your geographic location.</p>
+            <h2>Receipts and on-device recognition</h2>
+            <p>Receipt text recognition uses Apple Vision on your device. Recognized text suggests transaction details for you to review and is not retained as a separate transcript. Receipt images or PDFs you attach remain part of your stored transaction data.</p>
         </section>
 
         <section class="policy-section">
-            <h2>Can users see their personal data?</h2>
-            <p>Yes. All data you enter is visible within the app. You can also export your transactions to CSV format at any time.</p>
+            <h2>Lucent Plus purchases</h2>
+            <p>Apple processes Lucent Plus payments and supplies purchase and entitlement information used to unlock paid features. Lucent does not receive your full payment-card details. Apple&#x27;s Family Sharing of purchases is separate from membership in a Lucent household.</p>
         </section>
 
         <section class="policy-section">
-            <h2>Can users delete their data?</h2>
-            <p>Yes. You can delete individual budgets, transactions, and goals within the app. You can also delete your entire account and all associated data through the app settings.</p>
+            <h2>Access and deletion</h2>
+            <p>You can view your entered records, export supported records to CSV, and delete individual items within the app. Deleting shared records can affect what household members see. For questions about account deletion or your data, contact <a href="mailto:hello@gregbell.dev">hello@gregbell.dev</a>.</p>
         </section>
 
         <section class="policy-section">
-            <h2>Do you share personal information?</h2>
-            <p>We do not sell, trade, or share your information with third parties. If you use the household sharing feature, your budget data is shared only with the household members you invite.</p>
+            <h2>Service providers and analytics</h2>
+            <p>Lucent uses Supabase for signed-in storage and synchronization, Apple services for private iCloud synchronization and purchases, and ExchangeRate-API for currency exchange rates. Exchange-rate requests use currency codes. Service providers necessarily receive technical connection information such as IP addresses. Lucent has no advertising or third-party analytics SDKs and does not sell your data.</p>
         </section>
 
         <section class="policy-section">
-            <h2>Do advertising companies collect data?</h2>
-            <p>No. The Application does not contain any advertising and no data is shared with advertising companies.</p>
+            <h2>Location and children</h2>
+            <p>Lucent does not request device location access. The app is not directed at children under 13. If you believe a child has provided personal information, contact <a href="mailto:hello@gregbell.dev">hello@gregbell.dev</a>.</p>
         </section>
 
         <section class="policy-section">
-            <h2>Do you use vendors or analytics providers?</h2>
-            <p>The Application uses <a href="https://supabase.com">Supabase</a> for cloud storage and syncing. When you use multi-currency features, exchange rates are fetched from <a href="https://www.exchangerate-api.com">ExchangeRate-API</a> (no personal data is sent, only currency codes). No analytics or tracking services are used.</p>
+            <h2>Contact and changes</h2>
+            <p>If these practices materially change, we will update this page and provide notice in the app or on the website. For privacy questions, contact <a href="mailto:hello@gregbell.dev">hello@gregbell.dev</a>.</p>
         </section>
 
-        <section class="policy-section">
-            <h2>Do you comply with the Children's Online Privacy Protection Act (COPPA)?</h2>
-            <p>Yes. We do not solicit nor gather any data from children under the age of 13.</p>
-        </section>
     </main>
 
     <footer>
@@ -336,7 +333,7 @@
                 <a href="privacy-policy.html">Privacy Policy</a>
                 <a href="mailto:hello@gregbell.dev">Contact</a>
             </div>
-            <p class="footer-copy">© 2025 Lucent. All rights reserved.</p>
+            <p class="footer-copy">© 2026 Lucent. All rights reserved.</p>
         </div>
     </footer>
 </body>
